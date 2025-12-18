@@ -1,8 +1,9 @@
 {
   "maintenance": false,
-  "version": "1.5",
-  "message": "🌙☀️ Dark / Light Mode",
+  "version": "1.6",
+  "message": "🚀 Sistem fitur siap!",
   "mode": "dark",
+
   "theme": {
     "dark": {
       "primary": "#38bdf8",
@@ -16,16 +17,21 @@
       "background": "#f8fafc",
       "accent": "#dc2626"
     }
-  }
-}{
-  "maintenance": false,
-  "version": "1.4",
-  "message": "🎨 Update tema baru!",
-  "theme": {
-    "primary": "#38bdf8",
-    "secondary": "#2563eb",
-    "background": "#020617",
-    "accent": "#f43f5e"
+  },
+
+  "features": {
+    "themeToggle": true,
+    "login": false,
+    "eventMode": false,
+    "sound": false,
+    "timer": false,
+    "leaderboard": false
+  },
+
+  "event": {
+    "active": false,
+    "title": "",
+    "message": ""
   }
 }
 
