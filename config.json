@@ -1,5 +1,24 @@
 {
   "maintenance": false,
+  "version": "1.5",
+  "message": "🌙☀️ Dark / Light Mode",
+  "mode": "dark",
+  "theme": {
+    "dark": {
+      "primary": "#38bdf8",
+      "secondary": "#2563eb",
+      "background": "#020617",
+      "accent": "#f43f5e"
+    },
+    "light": {
+      "primary": "#2563eb",
+      "secondary": "#38bdf8",
+      "background": "#f8fafc",
+      "accent": "#dc2626"
+    }
+  }
+}{
+  "maintenance": false,
   "version": "1.4",
   "message": "🎨 Update tema baru!",
   "theme": {
