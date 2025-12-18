@@ -1,51 +1,43 @@
 {
-  "version": "1.4.1",
-  "message": "🎄 Event Natal aktif!",
+  "version": "1.4.2",
+  "message": "🎮 Tampilan berubah otomatis berdasarkan koin!",
   "gameOn": true,
 
-  "theme": {
-    "primary": "#ef4444",
-    "secondary": "#000000",
-    "background": "#000000",
-    "accent": "#ffffff",
-    "card": "#020617cc"
-  },
-
-  "ads": {
+  "coinSystem": {
     "active": true,
-    "text": "🎅 EVENT NATAL! Menang koin!"
-  },
-
-  "event": {
-    "name": "Natal",
-    "coin": true
-  },
-
-  "shop": {
-    "active": true,
-    "items": [
+    "autoTheme": true,
+    "rules": [
       {
-        "id": "theme_black",
-        "name": "Tampilan Hitam",
-        "price": 10,
-        "coin": true,
-        "theme": {
-          "primary": "#000000",
-          "background": "#000000",
-          "accent": "#ffffff"
-        }
+        "minCoin": 10,
+        "theme": "black"
       },
       {
-        "id": "theme_blue",
-        "name": "Tampilan Biru",
-        "price": 30,
-        "coin": true,
-        "theme": {
-          "primary": "#2563eb",
-          "background": "#020617",
-          "accent": "#ffffff"
-        }
+        "minCoin": 20,
+        "theme": "blue"
       }
     ]
+  },
+
+  "themes": {
+    "default": {
+      "primary": "#ef4444",
+      "background": "#020617",
+      "accent": "#ffffff",
+      "card": "#020617cc"
+    },
+
+    "black": {
+      "primary": "#000000",
+      "background": "#000000",
+      "accent": "#ffffff",
+      "card": "#020617cc"
+    },
+
+    "blue": {
+      "primary": "#2563eb",
+      "background": "#020617",
+      "accent": "#ffffff",
+      "card": "#020617cc"
+    }
   }
 }
