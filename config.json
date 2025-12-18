@@ -1,7 +1,6 @@
 {
-  "version": "1.4.0",
-  "message": "🎄 Event Natal aktif! Menang dapat 20 koin",
-
+  "version": "1.4.1",
+  "message": "🎄 Event Natal aktif!",
   "gameOn": true,
 
   "theme": {
@@ -14,12 +13,39 @@
 
   "ads": {
     "active": true,
-    "text": "🎅 EVENT NATAL! Menang = +20 KOIN"
+    "text": "🎅 EVENT NATAL! Menang koin!"
   },
 
   "event": {
     "name": "Natal",
-    "coin": true,
-    "reward": 20
+    "coin": true
+  },
+
+  "shop": {
+    "active": true,
+    "items": [
+      {
+        "id": "theme_black",
+        "name": "Tampilan Hitam",
+        "price": 10,
+        "coin": true,
+        "theme": {
+          "primary": "#000000",
+          "background": "#000000",
+          "accent": "#ffffff"
+        }
+      },
+      {
+        "id": "theme_blue",
+        "name": "Tampilan Biru",
+        "price": 30,
+        "coin": true,
+        "theme": {
+          "primary": "#2563eb",
+          "background": "#020617",
+          "accent": "#ffffff"
+        }
+      }
+    ]
   }
 }
