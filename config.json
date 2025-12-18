@@ -1,23 +1,6 @@
 {
-  "version": "1.4.0",
-  "message": "⚡ Update tiba! Event koin & tampilan merah aktif",
-
-  "theme": {
-    "primary": "#ef4444",
-    "secondary": "#991b1b",
-    "accent": "#f87171",
-    "background": "#020617",
-    "card": "#020617e6"
-  },
-
-  "gameOn": true,
-
   "ads": {
-    "text": "🔥 IKLAN: Event Merah! Menang dapat koin ekstra 🪙"
-  },
-
-  "event": {
-    "coin": true,
-    "reward": 20
+    "active": true,
+    "text": "📢 Event koin aktif! Main sekarang"
   }
 }
