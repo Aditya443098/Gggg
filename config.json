@@ -1,10 +1,10 @@
 {
   "version": "1.4.6",
+
   "gameOn": false,
 
   "maintenance": {
     "active": true,
-    "title": "Game Sedang Update",
-    "message": "Mohon sabar, update sekitar beberapa jam saja 🙏"
+    "lockGame": true
   }
 }
