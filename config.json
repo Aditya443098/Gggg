@@ -1,6 +1,25 @@
 {
+  "version": "1.4.0",
+  "message": "🎄 Event Natal aktif! Menang dapat 20 koin",
+
+  "gameOn": true,
+
+  "theme": {
+    "primary": "#ef4444",
+    "secondary": "#000000",
+    "background": "#000000",
+    "accent": "#ffffff",
+    "card": "#020617cc"
+  },
+
   "ads": {
     "active": true,
-    "text": "📢 Event koin aktif! Main sekarang"
+    "text": "🎅 EVENT NATAL! Menang = +20 KOIN"
+  },
+
+  "event": {
+    "name": "Natal",
+    "coin": true,
+    "reward": 20
   }
 }
