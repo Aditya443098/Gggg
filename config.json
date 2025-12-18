@@ -1,43 +1,35 @@
 {
-  "version": "1.4.2",
-  "message": "🎮 Tampilan berubah otomatis berdasarkan koin!",
+  "version": "1.4.3",
+  "message": "⋮ Menu ditambahkan, Shop dipindahkan ke menu",
   "gameOn": true,
 
-  "coinSystem": {
+  "menu": {
     "active": true,
-    "autoTheme": true,
-    "rules": [
+    "type": "dots",
+    "items": [
       {
-        "minCoin": 10,
-        "theme": "black"
-      },
-      {
-        "minCoin": 20,
-        "theme": "blue"
+        "id": "shop",
+        "name": "Shop",
+        "icon": "🛒",
+        "active": true
       }
     ]
   },
 
-  "themes": {
-    "default": {
-      "primary": "#ef4444",
-      "background": "#020617",
-      "accent": "#ffffff",
-      "card": "#020617cc"
-    },
-
-    "black": {
-      "primary": "#000000",
-      "background": "#000000",
-      "accent": "#ffffff",
-      "card": "#020617cc"
-    },
-
-    "blue": {
-      "primary": "#2563eb",
-      "background": "#020617",
-      "accent": "#ffffff",
-      "card": "#020617cc"
-    }
+  "shop": {
+    "active": true,
+    "visible": false,
+    "items": [
+      {
+        "id": "theme_black",
+        "name": "Tampilan Hitam",
+        "price": 10
+      },
+      {
+        "id": "theme_blue",
+        "name": "Tampilan Biru",
+        "price": 30
+      }
+    ]
   }
 }
