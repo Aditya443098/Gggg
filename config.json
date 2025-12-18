@@ -1,11 +1,5 @@
 {
   "version": "1.4.4",
   "message": "Footer ditambahkan: Follow Admin TikTok",
-
-  "footer": {
-    "active": true,
-    "text": "Follow Admin TikTok",
-    "username": "@ditt.287",
-    "link": "https://www.tiktok.com/@ditt.287"
   }
 }
