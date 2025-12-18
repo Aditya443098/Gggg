@@ -1,35 +1,11 @@
 {
-  "version": "1.4.3",
-  "message": "⋮ Menu ditambahkan, Shop dipindahkan ke menu",
-  "gameOn": true,
+  "version": "1.4.4",
+  "message": "Footer ditambahkan: Follow Admin TikTok",
 
-  "menu": {
+  "footer": {
     "active": true,
-    "type": "dots",
-    "items": [
-      {
-        "id": "shop",
-        "name": "Shop",
-        "icon": "🛒",
-        "active": true
-      }
-    ]
-  },
-
-  "shop": {
-    "active": true,
-    "visible": false,
-    "items": [
-      {
-        "id": "theme_black",
-        "name": "Tampilan Hitam",
-        "price": 10
-      },
-      {
-        "id": "theme_blue",
-        "name": "Tampilan Biru",
-        "price": 30
-      }
-    ]
+    "text": "Follow Admin TikTok",
+    "username": "@ditt.287",
+    "link": "https://www.tiktok.com/@ditt.287"
   }
 }
