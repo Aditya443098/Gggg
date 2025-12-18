@@ -1,5 +1,15 @@
+
 {
-  "version": "1.4.4",
-  "message": "Footer ditambahkan: Follow Admin TikTok",
+  "version": "1.4.5",
+  "message": "🎨 Tampilan website diperbarui menjadi warna hijau",
+
+  "theme": {
+    "name": "green",
+    "primary": "#16a34a",
+    "secondary": "#166534",
+    "background": "#020617",
+    "accent": "#22c55e",
+    "text": "#ffffff",
+    "card": "#052e16cc"
   }
 }
