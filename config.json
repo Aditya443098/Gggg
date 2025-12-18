@@ -1,5 +1,28 @@
-"settings":{
-  "darkMode": true,
-  "shop": true,
-  "login": false
+{
+  "version": "1.4.1",
+
+  "game": {
+    "active": true
+  },
+
+  "settings": {
+    "themeMode": "dark",
+    "sound": true,
+    "music": true
+  },
+
+  "theme": {
+    "dark": {
+      "primary": "#ef4444",
+      "background": "#000000",
+      "text": "#ffffff",
+      "card": "#020617cc"
+    },
+    "light": {
+      "primary": "#ef4444",
+      "background": "#f9fafb",
+      "text": "#000000",
+      "card": "#ffffff"
+    }
+  }
 }
