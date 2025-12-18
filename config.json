@@ -1,14 +1,38 @@
 {
-  "version": "1.5.0",
-  "message": "🎨 Tampilan website diperbarui menjadi warna hijau",
+  "version": "1.2.0",
+  "message": "Update besar! Tema, fitur, dan perbaikan bug",
+  
   "maintenance": false,
 
   "theme": {
-    "active": true,
-    "name": "green",
-    "primary": "#16a34a",
-    "secondary": "#166534",
-    "accent": "#22c55e",
-    "background": "#020617"
+    "mode": "dark", 
+    "color": "yellow"
+  },
+
+  "ui": {
+    "background": "auto",
+    "primaryColor": "#facc15",
+    "secondaryColor": "#eab308",
+    "textColor": "#ffffff"
+  },
+
+  "features": {
+    "shop": true,
+    "login": false,
+    "settings": true,
+    "darkLightToggle": true,
+    "botMode": true,
+    "difficulty": true
+  },
+
+  "game": {
+    "enabled": true,
+    "boardSize": [3, 4],
+    "botDifficulty": ["easy", "normal", "hard"]
+  },
+
+  "info": {
+    "notice": "Game sedang update fitur baru, mohon sabar 🙏",
+    "estimatedTime": "Beberapa jam"
   }
 }
