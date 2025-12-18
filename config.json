@@ -1,15 +1,10 @@
-
 {
-  "version": "1.4.5",
-  "message": "🎨 Tampilan website diperbarui menjadi warna hijau",
+  "version": "1.4.6",
+  "gameOn": false,
 
-  "theme": {
-    "name": "green",
-    "primary": "#16a34a",
-    "secondary": "#166534",
-    "background": "#020617",
-    "accent": "#22c55e",
-    "text": "#ffffff",
-    "card": "#052e16cc"
+  "maintenance": {
+    "active": true,
+    "title": "Game Sedang Update",
+    "message": "Mohon sabar, update sekitar beberapa jam saja 🙏"
   }
 }
